@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #d4e6ef;
+}
+
+h1 {
+    color: #5788a0;
+    margin: 50px 0;
+}
+
+.occurrency {
+    background: #cae4f1;
+    border: solid 4px #a5c7d8;
+    display: inline-block;
+    width: 800px;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#result {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    width: 800px;
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Occurrency.css">
+    <title>Librairie Occurrency</title>
+</head>
+<body>
+    <h1>Récupérer le nombre d'occurences de chaque mot dans un texte</h1>
+
+    <div class="occurrency" id="text">Texte : Bonjour, je cherche à connaître le nombre d'occurence; de chaque mot de ce texte sachant que les mots de 2 lettres ou moins ne seront pas pris en compte. Et puis soyons fou, il faut aussi tester les exceptions de la langue française comme "aujourd'hui" par exemple !</div>
+
+    <script type="text/javascript" src="Occurrency.js"></script>
+    <script>
+        Occurrency({
+            text: "text",
+            result: "result"
+        });
+    </script>
+</body>
+</html>
