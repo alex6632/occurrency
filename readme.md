@@ -3,12 +3,12 @@ Occurrency
 
 Purpose
 ------------
-"Occurrency" count the occurrence number of each words in a text.
+"Occurrency" count the occurrences of each word in a text.
 
 Init
 -------
 1. Include the Occurrency script at the bottom of your HTML file.
-2. Put this code after :
+2. Copy and paste the code below :
 ```
 <script>
     Occurrency({
@@ -25,7 +25,7 @@ Parameters
 
 Name | Required | Type | Default | Purpose
 :- |:-: | :-: | :-: | -:
-`text` | true | string | / | Text `id` used for count occurences.
-`result` | true | string | / | Tag `id`used for render result
-`customAppend` | false | boolean | false | Set `true` if you want append result in a custom HTML tag
+`text` | true | string | / | Text `id` used for counting occurrences.
+`result` | true | string | / | Tag `id` used for rendering result
+`customAppend` | false | boolean | false | Set `true` if you want to append result in a custom HTML tag
 `limit` | false | int | 2 | By default, words less or equal than `two` letters will be ignored
